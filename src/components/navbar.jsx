@@ -1,0 +1,13 @@
+export default function Navbar(){
+    return(
+        <nav>
+            <div className="logo-container">
+                <img src="../public/Images/3-2-troll-face-meme-png-thumb.png" className="nav--Logo"/>
+                <p>Meme Generator</p>
+            </div>
+            <div className="side-bar">
+                <p>React Course - Project 3</p>
+            </div>
+        </nav>
+    )
+}
