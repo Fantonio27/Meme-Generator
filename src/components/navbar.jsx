@@ -1,8 +1,10 @@
+import logo from "../assets/Images/3-2-troll-face-meme-png-thumb.png"
+
 export default function Navbar(){
     return(
         <nav>
             <div className="logo-container">
-                <img src="../Images/3-2-troll-face-meme-png-thumb.png" className="nav--Logo"/>
+                <img src={logo} className="nav--Logo"/>
                 <p>Meme Generator</p>
             </div>
             <div className="side-bar">
